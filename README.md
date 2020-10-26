@@ -9,13 +9,13 @@ Writing cloud functions- before write this functions, first we create/host an we
 Firebase Hosting is a secure, global web hosting CDN (Content Delivery Network). It’s really good at quickly delivering static content (HTML,CSS, JS, images) using servers that are close to your users. And you can get it set up quickly, with or without your custom domain, along with a provisioned SSL certificate that costs you nothing.  Firebase Hosting has one important point of integration with the rest of Firebase, and that’s through Cloud Functions. Firebase Hosting lets you proxy the request and response to and from Cloud Functions when writing HTTP type functions. And, even better, it’ll cache the responses from your functions, if you configure them properly.
 The aim of our project is to make a Wi-Fi module which can sense the temperature and humidity values and display the values  to the frontend html images, using servers and store into the firebase Real time database. So this whole process is operated automatically by its sensors.
 
-# Project initialization
+## Project initialization
 1. ![Slide5](https://user-images.githubusercontent.com/68738766/90042173-f12c7480-dce7-11ea-8cf9-cfa732920456.JPG)
 2. ![Slide6](https://user-images.githubusercontent.com/68738766/90042178-f4276500-dce7-11ea-9fb1-596abb3b731c.JPG)
 3. ![Slide8](https://user-images.githubusercontent.com/68738766/90042195-fdb0cd00-dce7-11ea-82f6-25e5052dc248.JPG)
 4. ![Slide9](https://user-images.githubusercontent.com/68738766/90042201-00132700-dce8-11ea-956f-c9cb9320bb00.JPG)
 5. ![Slide10](https://user-images.githubusercontent.com/68738766/90042208-030e1780-dce8-11ea-8a27-9b7fe54a819b.JPG)
-# Commands to access firebase console
+## Commands to access firebase console
 1. Once you install the node.js as well as npm, you can write on cmd prompt-” npm install-g firebase-tools”
 2. To initialize the firebase project, type- “firebase login” & “firebase init”
 3. Once you initialize, now deploy your firebase project- “firebase deploy --only hosting”& “firebase deploy  -- only functions”
@@ -24,6 +24,6 @@ The aim of our project is to make a Wi-Fi module which can sense the temperature
 6. String push(constString &path, constJsonVariant&value)
 7. We have to create this function with .js  file extension and deploy the functions using cmd- “firebase deploy - - only functions
 8. ![index](https://user-images.githubusercontent.com/68738766/90042280-191bd800-dce8-11ea-9bc2-11ab5e74ff5c.png)
-# Hosting Web app  
+## Hosting Web app  
 ![newplot](https://user-images.githubusercontent.com/68738766/90042494-626c2780-dce8-11ea-8a0c-610864e31236.png)
-# Link https://nodemcu-nielit125.firebaseapp.com/
+### Link https://nodemcu-nielit125.firebaseapp.com/
